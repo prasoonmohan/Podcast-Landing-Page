@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,600&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(255, 255, 255, 0.64);
+}
+
+.main-container {
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+}
+.img-container {
+    margin-left: 50px;
+}
+.img-container > img {
+    height: 600px;
+}
+.text-container {
+    margin-left: 40px;
+}
+.text-container > h2{
+    font-size: 35px;
+}
+.text-container > p {
+    font-size: 20px;
+}
+button{
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 400px;
+    margin-top: 20px;
+    background-color: rgb(172, 64, 64);
+    color: white;
+    border-radius: 10px;
+    transition: all ease-in-out 300ms;
+}
+button:hover {
+    background-color: rgb(180, 24, 24);
+}
+
+
+@media only screen and (max-width: 768px)  {
+    .main-container {
+        padding: 30px;
+        height: 80vh;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container {
+        margin-top: -20px;
+        margin-left: -50px;
+    }
+    .img-container > img {
+        height: 400px;
+    }
+    .text-container {
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+    .text-container > h2 {
+        font-size: 20px;
+        max-width: 300px;
+    }
+    .text-container > p {
+        max-width: 330px;
+        font-size: 15px;
+        min-width: 250px;
+    }
+    button {
+        padding: 12px;
+        max-width: 80%;
+        margin-right: 20px;
+        min-width: 300px;
+        cursor: pointer;
+        border: none;
+        background-color: rgb(172, 64, 64);
+        color: white;
+        font-size: 15px;
+        border-radius: 10px;
+        font-family: "Poppins", sans-serif;
+        transition: all ease-in-out 500ms;
+        margin-top: 20px;
+    }
+    button:hover {
+        background-color: rgb(180, 24, 24);
+    }
+}
+
+
