@@ -1,4 +1,4 @@
-## Snap 😉
+## Snap 😉 ...
 
 
 ![Preview](./assets/images/preview.png)
